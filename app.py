@@ -6,7 +6,7 @@ import torch
 import cv2
 import os
 import time
-
+import opencv-contrib-python-headless
 st.set_page_config(layout="wide")
 
 cfg_model_path = 'bestonlyeye.pt'
